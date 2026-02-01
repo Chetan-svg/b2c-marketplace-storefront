@@ -2,3 +2,14 @@ name = "b2c-marketplace-storefront"
 pages_build_output_dir = ".open-next"
 compatibility_date = "2024-09-23"
 compatibility_flags = ["nodejs_compat"]
+
+[vars]
+MEDUSA_BACKEND_URL = "https://api.shopengenie.com"
+NEXT_PUBLIC_MEDUSA_PUBLISHABLE_KEY = "pk_eada0d863eeb27395ac72b99bf332084130bf831fd0cc15f9e285c4b0385c143"
+NEXT_PUBLIC_BASE_URL = "https://shopengenie.com"
+NEXT_PUBLIC_DEFAULT_REGION = "us"
+NEXT_PUBLIC_SITE_NAME = "ShopEngenie"
+NEXT_PUBLIC_SITE_DESCRIPTION = "B2C Marketplace for Industrial MRO parts"
+NEXT_PUBLIC_ALGOLIA_ID = "R192N3MYZW"
+NEXT_PUBLIC_ALGOLIA_SEARCH_KEY = "f1475c48733731d905410db2282c3c55"
+NEXT_PUBLIC_VENDOR_URL = "https://vendor.shopengenie.com/"
