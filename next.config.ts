@@ -4,6 +4,14 @@ const nextConfig: NextConfig = {
   output: "standalone",
   trailingSlash: false,
   reactStrictMode: true,
+  serverExternalPackages: [
+    "@medusajs/ui",
+    "@radix-ui/react-direction",
+    "@radix-ui/react-primitive",
+    "@radix-ui/react-aspect-ratio",
+    "@tanstack/react-table",
+    "radix-ui",
+  ],
   logging: {
     fetches: {
       fullUrl: true
