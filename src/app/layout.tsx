@@ -11,6 +11,8 @@ import { retrieveCart } from '@/lib/data/cart';
 
 import { Providers } from './providers';
 
+export const runtime = 'edge';
+
 const funnelDisplay = Funnel_Display({
   variable: '--font-funnel-sans',
   subsets: ['latin'],
