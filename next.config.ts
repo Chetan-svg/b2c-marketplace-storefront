@@ -4,21 +4,14 @@ const nextConfig: NextConfig = {
   output: "standalone",
   trailingSlash: false,
   reactStrictMode: true,
-  transpilePackages: [
+  serverExternalPackages: [
     "@medusajs/ui",
+    "@radix-ui/react-direction",
+    "@radix-ui/react-primitive",
+    "@radix-ui/react-aspect-ratio",
+    "@tanstack/react-table",
     "radix-ui",
   ],
-  experimental: {
-    // Opt out of bundling for problematic packages in Edge runtime
-    serverComponentsExternalPackages: [
-      "@medusajs/ui",
-      "@radix-ui/react-direction",
-      "@radix-ui/react-primitive",
-      "@radix-ui/react-aspect-ratio",
-      "@tanstack/react-table",
-      "radix-ui",
-    ],
-  },
   logging: {
     fetches: {
       fullUrl: true
